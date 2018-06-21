@@ -8,5 +8,6 @@ public class MainSteps{
     @Step("выбран Маркет")
     public void selectMarket(){
         new MainPage(BaseSteps.driver).selectMarket();
+
     }
 }

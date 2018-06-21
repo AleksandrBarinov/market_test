@@ -16,6 +16,7 @@ public class MainPage {
 
     public void selectMarket() {
         marketLink.click();
+
     }
 
 }

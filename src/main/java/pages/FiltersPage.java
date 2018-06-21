@@ -13,7 +13,6 @@ public class FiltersPage {
     }
 
     @FindBy(css = "#glf-pricefrom-var")
-    //@FindBy(xpath = "//*[@name='glf-pricefrom-var']']")
     WebElement priceFromField;
 
     @FindBy(xpath = "//*[@name='glf-priceto-var']")
@@ -64,4 +63,5 @@ public class FiltersPage {
         Thread.sleep(3000);
         applyFilter.click();
     }
+
 }
